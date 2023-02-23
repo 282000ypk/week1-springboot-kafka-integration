@@ -1,0 +1,10 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer.group-id: myApp
+
+kafka:
+  topics: quickstart-events
+
+server:
+  port: 8082
